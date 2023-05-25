@@ -1,0 +1,70 @@
+/* latin */ /*fuente chilanka de forma local*/
+@font-face {
+  font-family: 'Chilanka';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Chilanka Regular'), local('Chilanka-Regular'), url(../fonts/chilanka.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/*Estilos del index.html*/
+body{
+	background: #96D9C6;
+	margin: 0;
+	font-family: 'Chilanka', cursive;
+}
+
+nav{
+	background: #F20587;
+}
+
+.contenedor nav{
+	font-size: 63px;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 18px 0px 16px 0px;
+}
+
+.contenedor nav p{
+	margin: 0;
+}
+
+.contenedor-btns{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+h3{
+	font-size: 26px;
+	margin-top: 60px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.contenedor a{
+font-size: 28px;
+color: #FFFFFF;
+background: #F20587;
+padding: 20px 32px;
+margin-bottom: 90px;
+width: 169px;
+display: inline-block; 
+border-radius: 12px;
+text-decoration: none;
+}
+
+.btn {
+    width: 28%;
+    padding: 34px 30px 30px 30px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+footer{
+	background: #F20587;
+	padding: 18px 0;
+	text-align: center;
+}
