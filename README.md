@@ -1,3 +1,3 @@
 # Galery
 
-Galery Template
+Galery Template 🏕️🏕️
